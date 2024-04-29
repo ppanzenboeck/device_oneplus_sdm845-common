@@ -21,6 +21,10 @@ TARGET_USES_PICO_GAPPS=true
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+	RemovePackages
+
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 

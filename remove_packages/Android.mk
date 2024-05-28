@@ -64,7 +64,8 @@ LOCAL_OVERRIDES_PACKAGES += \
 LOCAL_OVERRIDES_PACKAGES += \
     OmniStyle \
 	GameSpace \
-	TouchGestures
+	TouchGestures \
+	Accord
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED

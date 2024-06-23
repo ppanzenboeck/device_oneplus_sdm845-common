@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 BOARD_VENDOR := oneplus
 
 COMMON_PATH := device/oneplus/sdm845-common

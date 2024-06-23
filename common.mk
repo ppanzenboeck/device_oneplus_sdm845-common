@@ -17,6 +17,7 @@ DERP_BUILDTYPE=Official
 DERP_VERSION_APPEND_TIME_OF_DAY=true
 #EXTRA_UDFPS_ICONS=true
 TARGET_NOT_USES_BLUR=true
+TARGET_USES_PICO_GAPPS=true
 
 
 # Add common definitions for Qualcomm

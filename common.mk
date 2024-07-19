@@ -23,8 +23,8 @@ TARGET_USES_PICO_GAPPS=true
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
-#Viper4Android
-$(call inherit-product, vendor/ViPER4AndroidFXRepackaged/config.mk)
+# Viper4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 # Remove Packages
 PRODUCT_PACKAGES += \

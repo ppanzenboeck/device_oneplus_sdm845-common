@@ -58,14 +58,71 @@ LOCAL_OVERRIDES_PACKAGES += \
     TurboPrebuilt \
     PrebuiltBugle \
     ScribePrebuilt \
-    SoundAmplifierPrebuilt
+    SoundAmplifierPrebuilt \
+    LocationHistoryPrebuilt \
+    PrebuiltDeskClockGoogle \
+    TrichromeLibrary-Stub \
+    WebViewGoogle-Stub \
+    WellbeingPrebuilt \
+    GoogleFeedback
 
-#derp
+#yograj
+LOCAL_OVERRIDES_PACKAGES := \
+    AdaptiveVPNPrebuilt \
+    AiWallpapers \
+    AmbientStreaming \
+    arcore \
+    BetterBugStub \
+    CarrierLocation \
+    CarrierMetrics \
+    CarrierWifi \
+    CbrsNetworkMonitor \
+    ConfigUpdater \
+    ConnMO \
+    DCMO \
+    DMService \
+    GoogleFeedback \
+    grilservice \
+    HealthIntelligenceStubPrebuilt \
+    KidsSupervisionStub \
+    LocationHistoryPrebuilt \
+    MaestroPrebuilt \
+    MusicFX \
+    MyVerizonServices \
+    OemDmTrigger \
+    Panic \
+    PixelSupportPrebuilt \
+    QuickAccessWallet \
+    SafetyHubPrebuilt \
+    SafetyRegulatoryInfo \
+    ScribePrebuilt \
+    Showcase \
+    SoundAmplifierPrebuilt \
+    Stk \
+    SwitchAccessPrebuilt \
+    TurboAdapter \
+    TurboPrebuilt \
+    Tycho \
+    VZWAPNLib \
+    WfcActivation \
+
+# YAAP packages
 LOCAL_OVERRIDES_PACKAGES += \
-    OmniStyle \
-	GameSpace \
-	TouchGestures \
-	Accord
+    ExactCalculator \
+    Glimpse \
+    MatLog \
+    TrichromeLibrary \
+    TrichromeWebView \
+    TrichromeChrome \
+    Recorder \
+    Seedvault \
+    OmniJaws \
+    OpenDelta \
+    Ripple \
+    Panic \
+    Velvet \
+    PrebuiltBugle
+
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED

@@ -12,13 +12,21 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
-DERP_BUILDTYPE=Official
-DERP_VERSION_APPEND_TIME_OF_DAY=true
-#EXTRA_UDFPS_ICONS=true
-TARGET_NOT_USES_BLUR=true
-TARGET_USES_PICO_GAPPS=true
+#   
 
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := sdm845
+
+
+#YAAP
+TARGET_BUILD_GAPPS := true
+TARGET_ENABLE_BLUR := false
+TARGET_SUPPORTS_64_BIT_APPS := true
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+FULL_SYSTEM_OPTIMIZE_JAVA := true
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
@@ -292,14 +300,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oneplus_sdm845
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
@@ -393,18 +393,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/oneplus \
     vendor/qcom/opensource/usb/etc
 
-# Telephony
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \

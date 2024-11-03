@@ -60,6 +60,25 @@ LOCAL_OVERRIDES_PACKAGES += \
     ScribePrebuilt \
     SoundAmplifierPrebuilt
 
+LOCAL_OVERRIDES_PACKAGES += \
+    CalculatorGoogle \
+    CalendarGoogle \
+    Chrome64 \
+    GoogleContacts \
+    Maps \
+    Photos \
+    Gmail2 \
+    talkback \
+    FilesGoogle \
+    YouTube \
+    Drive \
+    PersonalSafety \
+    Accord \
+    FossifyGallery \
+    Messages \
+    Velvet \
+    com.google.android.apps.dialer.call_recording_audio.features
+
 #derp
 LOCAL_OVERRIDES_PACKAGES += \
     OmniStyle \

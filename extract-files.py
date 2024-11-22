@@ -58,8 +58,6 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libwfdnative.so': blob_fixup()
         .replace_needed('android.hidl.base@1.0.so', 'libhidlbase.so')
         .add_needed('libinput_shim.so'),
-    'vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.oneplus.rc': blob_fixup()
-        .regex_replace('@2.1-service', '@2.1-service.oneplus'),
     ('vendor/lib64/mediadrm/libwvdrmengine.so', 'vendor/lib64/libwvhidl.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
 }  # fmt: skip

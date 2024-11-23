@@ -188,10 +188,7 @@
             <name>IUceService</name>
             <instance>com.qualcomm.qti.uceservice</instance>
         </interface>
-    </hal>
-            <instance>default</instance>
-        </interface>
-    </hal>
+    </hal>      
     <hal format="hidl">
         <name>vendor.oneplus.fingerprint.extension</name>
         <transport>hwbinder</transport>

@@ -192,7 +192,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 
 # Display
-PRODUCT_PACKAGES += \ android.hardware.graphics.mapper@3.0-impl-qti-display \   android.hardware.graphics.mapper@4.0-impl-qti-display \
+PRODUCT_PACKAGES += \ 
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@4.0-impl-qti-display \
     gralloc.sdm845 \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.composer-service \

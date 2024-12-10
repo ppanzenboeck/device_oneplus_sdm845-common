@@ -162,7 +162,7 @@ vendor/lib/libSTDualCamPreviewBokeh.so
 vendor/lib/libSTdisp.so
 vendor/lib/libSensorManagerHAL.so
 vendor/lib/libSonyIMX371RmscLibrary.so
-vendor/lib/libVDBlurlessAPI_v2.so;DISABLE_CHECKELF
+vendor/lib/libVDBlurlessAPI_v2.so
 vendor/lib/libVDDualCameraBlurlessAPI.so
 vendor/lib/libVDHDRAPI.so
 vendor/lib/lib_EagleEye.so

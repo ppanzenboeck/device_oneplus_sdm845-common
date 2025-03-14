@@ -88,6 +88,16 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# Alert slider
+ifneq ($(TARGET_IS_TABLET),true)
+PRODUCT_PACKAGES += \
+    KeyHandler \
+    tri-state-key-calibrate
+endif
+
+PRODUCT_PACKAGES += \
+    OPlusSystemUIOverlay
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \

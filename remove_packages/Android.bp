@@ -1,0 +1,44 @@
+android_app_import {
+     name: "RemovePackages",
+     apk: "DebloatDummy.apk",
+     presigned: true,
+     preprocessed: true,
+ 
+     overrides: [
+         "CalculatorGoogle",
+         "CalendarGoogle",
+         "Chrome64",
+         "GoogleContacts",
+         "Maps",
+         "Photos",
+         "Gmail2",
+         "talkback",
+         "FilesGoogle",
+         "YouTube",
+         "Drive",
+         "PersonalSafety",
+         "Accord",
+         "FossifyGallery",
+         "Updater",
+         "Messages",
+         "Etar",
+         "SpeechServicesByGoogle",
+         "GoogleLocationHistory",
+         "TagGoogle",
+         "FamilyLinkParentalControls",
+         "Jelly",
+         "Velvet",
+         "OmniStyle",
+         "Wellbeing",
+         "EmergencyInfoGms",
+         "WeatherPixelPrebuilt_24D1"
+     ],
+ 	dex_preopt: {
+ 		enabled: false,
+ 	},
+ 	privileged: true,
+ }
+//         "Wellbeing",
+//         "DerpWalls",
+//         "GoogleDialer"
+// Pixel Weather is very unfortunate. todo apply magic.

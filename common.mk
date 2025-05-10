@@ -372,3 +372,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
+
+# DerpFest Flags
+DERPFEST_BUILD_TYPE := Official
+TARGET_NOT_USES_BLUR := true
+
+# RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# ViPER4Android
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)

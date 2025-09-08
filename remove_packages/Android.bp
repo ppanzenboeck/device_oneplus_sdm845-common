@@ -19,7 +19,6 @@ android_app_import {
          "PersonalSafety",
          "Accord",
          "FossifyGallery",
-         "Updater",
          "Messages",
          "Etar",
          "SpeechServicesByGoogle",
@@ -31,13 +30,15 @@ android_app_import {
          "OmniStyle",
          "Wellbeing",
          "EmergencyInfoGms",
-         "WeatherPixelPrebuilt_24D1"
+         "Gemini",
+         "DeskClockGoogle",
      ],
  	dex_preopt: {
  		enabled: false,
  	},
  	privileged: true,
  }
+//         "SoundPickerPrebuilt"
 //         "Wellbeing",
 //         "DerpWalls",
 //         "GoogleDialer"

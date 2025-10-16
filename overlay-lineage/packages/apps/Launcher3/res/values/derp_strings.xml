@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="quickspace_psa_encouraged_apps_keywords">
+        <item>viper</item>
+        <item>telegram</item>
+        <item>challegram</item>
+        <item>youtube</item>
+        <item>metrolist</item>
+        <item>brave</item>
+        <item>pr0gramm</item>
+        <item>spusu</item>
+        <item>abitdo</item>
+    </string-array>
+    <string-array name="quickspace_psa_discouraged_apps_keywords">
+        <item>musically</item>
+        <item>snapchat</item>
+        <item>facebook</item>
+        <item>instagram</item>
+        <item>twitter</item>
+        <item>reddit</item>
+        <item>pinterest</item>
+        <item>discord</item>
+        <item>chrome</item>
+        <item>securesms</item>
+        <item>sbrowser</item>
+        <item>emmx</item>
+        <item>apple</item>
+        <item>whatsapp</item>
+    </string-array>
+    <string-array name="quickspace_psa_random">
+        <item>Set JetBrains Mono font.</item>
+        <item>JetBrains Mono is a gamechanger.</item>
+        <item>By P.A.N.Z.</item>
+        <item>Yours truly, P.A.N.Z.</item>
+        <item>Ever tried arch linux (btw)?</item>
+        <item>Never asking for donations</item>
+        <item>Divided by distance, united by DerpFest</item>
+        <item>You know I\'m not a huge fan of social media apps...</item>
+        <item>Patience is key</item>
+        <item>Quality \u003E Quantity, always.</item>
+        <item>Turns out being nice to people makes them be nice in return.</item>
+        <item>No bugs without logs? I don\'t do that.</item>
+        <item>I understand that users are users, not developers.</item>
+        <item>So... you\'re still using Windows?</item>
+        <item>I wish LineageOS would care more about tablets...</item>
+        <item>Hide the pill Harold</item>
+        <item>Please hide the pill.</item>
+        <item>Please just hide the pill.</item>
+        <item>Adb driver not found? Use linux.</item>
+        <item>Using linux is faster than fixing your Windows driver issues.</item>
+        <item>Never give up without a fight!</item>
+        <item>Gesture navigation hint serves no purpose</item>
+        <item>Click me!</item>
+        <item>Click me!</item>
+    </string-array>
+</resources>

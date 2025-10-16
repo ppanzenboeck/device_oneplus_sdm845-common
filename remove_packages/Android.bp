@@ -12,7 +12,6 @@ android_app_import {
          "Maps",
          "Photos",
          "Gmail2",
-         "talkback",
          "FilesGoogle",
          "YouTube",
          "Drive",
@@ -21,7 +20,6 @@ android_app_import {
          "FossifyGallery",
          "Messages",
          "Etar",
-         "SpeechServicesByGoogle",
          "GoogleLocationHistory",
          "TagGoogle",
          "FamilyLinkParentalControls",
@@ -32,12 +30,16 @@ android_app_import {
          "EmergencyInfoGms",
          "Gemini",
          "DeskClockGoogle",
+         "DevicePersonalizationPrebuiltPixel2020",
+         "WeatherPixelPrebuilt",
      ],
  	dex_preopt: {
  		enabled: false,
  	},
  	privileged: true,
  }
+//         "talkback",
+//         "SpeechServicesByGoogle",
 //         "SoundPickerPrebuilt"
 //         "Wellbeing",
 //         "DerpWalls",

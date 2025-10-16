@@ -396,6 +396,7 @@ PRODUCT_PACKAGES += \
 
 # DerpFest Flags
 DERPFEST_BUILD_TYPE := Official
+DERPFEST_VERSION_APPEND_TIME_OF_DAY := true
 TARGET_NOT_USES_BLUR := true
 
 # RemovePackages

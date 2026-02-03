@@ -3,3 +3,9 @@ vendor.powerhal.             u:object_r:vendor_power_prop:s0
 
 # RIL
 vendor.oem.bt.addr           u:object_r:vendor_rild_prop:s0
+
+# Camera
+persist.camera.dualcam.mode      u:object_r:vendor_camera_prop:s0
+persist.camera.videomode         u:object_r:vendor_camera_prop:s0
+persist.camera.videousecase      u:object_r:vendor_camera_prop:s0
+persist.camera.oneplusEisPreview u:object_r:vendor_camera_prop:s0

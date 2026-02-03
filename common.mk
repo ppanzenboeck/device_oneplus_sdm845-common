@@ -93,11 +93,14 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # Alert slider
-ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
     KeyHandler \
     tri-state-key-calibrate
-endif
+
+# --- FIX: Restore Missing Lineage Dependencies ---
+PRODUCT_PACKAGES += \
+    org.lineageos.platform \
+    LineageSettingsProvider
 
 PRODUCT_PACKAGES += \
     OPlusSystemUIOverlay
@@ -340,10 +343,6 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,ONEPLUS_LINEAGE_TOUCH_HAL,INCLUDE_DIR,$(LOCAL_PATH)/touch/include)
 
-# tri-state-key
-PRODUCT_PACKAGES += \
-    KeyHandler
-
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
@@ -394,3 +393,8 @@ PRODUCT_PACKAGES += \
 
 # ViPER4Android
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+TARGET_DISABLE_EPPE := true
+
+# Hack
+PRODUCT_PACKAGES += libgui_shim_schnitzel

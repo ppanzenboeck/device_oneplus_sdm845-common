@@ -18,3 +18,11 @@ allow hal_camera_default proc_meminfo:file r_file_perms;
 
 get_prop(hal_camera_default, ctl_default_prop)
 get_prop(hal_camera_default, vendor_mmi_prop)
+
+# Allow camera to talk to the allocator (Keep this, it is safe)
+allow hal_camera_default hal_graphics_allocator_default:binder call;
+allow hal_camera_default hal_graphics_allocator_hwservice:hwservice_manager find;
+
+# Allow access to camera-specific properties
+get_prop(hal_camera_default, vendor_camera_prop)
+set_prop(hal_camera_default, vendor_camera_prop)

@@ -302,7 +302,7 @@ vendor/lib64/libsdm-color.so|e6ab2eb6155499cdc401480aef6b017abf9c6186
 vendor/lib64/libsdm-colormgr-algo.so|1fb7f3cb11557bbf677afb5d6eda0e4e9fd3ac58
 vendor/lib64/libsdm-diag.so|485ddce0e07299ede0960dc69f74a3b5532b515a
 vendor/lib64/libsdm-disp-vndapis.so|2f1abd975b1f1dbabcc410e56c29ac296adcc411
-vendor/lib64/libsdmextension.so|14d6992e63abcdef7c64ae3318513e138275d529
+#vendor/lib64/libsdmextension.so|14d6992e63abcdef7c64ae3318513e138275d529
 vendor/lib64/libtinyxml2_1.so|fb0a2b16e5cfd28515268edc5c2345190d1ef4e5
 
 # Display calibration data

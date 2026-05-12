@@ -16,7 +16,6 @@ overrides: [
     "GoogleContacts",
     "GoogleTTS",
     "LocationHistoryPrebuilt",
-    "MarkupGoogle_v2",
     "NgaResources",
     "Photos",
     "PlayAutoInstallConfig",
@@ -66,6 +65,8 @@ overrides: [
     "UdfpsIcons",
     "DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10",
 ],
+//     "MarkupGoogle_v2",
+
  	dex_preopt: {
  		enabled: false,
  	},

@@ -1,0 +1,4 @@
+<resources>
+     <!-- GPU temperature path -->
+     <string name="config_gpu_temp_path">/sys/class/thermal/thermal_zone11/temp</string>    
+</resources>

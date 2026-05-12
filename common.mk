@@ -397,6 +397,9 @@ PRODUCT_PACKAGES += \
 # ViPER4Android
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 TARGET_DISABLE_EPPE := true
 
 # Hack

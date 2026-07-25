@@ -169,3 +169,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/oneplus/sdm845-common/BoardConfigVendor.mk
+
+# We are seriously running out of space
+WITH_DEXPREOPT := false

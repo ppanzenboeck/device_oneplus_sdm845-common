@@ -64,10 +64,10 @@ overrides: [
     "UdfpsAnimations",
     "UdfpsIcons",
     "DevicePersonalizationPrebuiltPixel2025-playstore_aiai_20250306.00_RC10",
-    "AxWallpaperEffects",
-    "AxThemePicker",
 ],
 //     "MarkupGoogle_v2",
+//    "AxWallpaperEffects",
+//    "AxThemePicker",
 
  	dex_preopt: {
  		enabled: false,

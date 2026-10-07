@@ -75,8 +75,6 @@ cc_prebuilt_binary {
         "Seedvault",
         "DerpFestClocks-Words",
         "LMOSystemUIClock",
-        "GameSpace",
-        "BatteryStatsViewer",
     ],
     strip: {
         none: true,

@@ -1,0 +1,8 @@
+# SELinux Treble Labeling tracking list for sdm845-common
+# Exempts platform apps requiring direct vendor access from coredomain enforcement
+
+non_coredomain_for_platform_apps:
+  - apk: GameBar.apk
+    bug: 0
+  - name: com.android.gamebar
+    bug: 0

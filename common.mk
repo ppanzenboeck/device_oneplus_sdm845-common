@@ -416,4 +416,9 @@ $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 # GameBar Performance Overlay
 $(call inherit-product, packages/apps/GameBar/gamebar.mk)
 
+# SELinux Treble Labeling
+PRODUCT_SELINUX_TREBLE_LABELING_TRACKING_LIST_FILE := \
+    device/oneplus/sdm845-common/sepolicy/tracking_list.yaml
+PRODUCT_ENFORCE_SELINUX_TREBLE_LABELING := false
+
 TARGET_DISABLE_EPPE := true

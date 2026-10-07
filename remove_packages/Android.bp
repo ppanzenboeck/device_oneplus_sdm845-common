@@ -47,6 +47,7 @@ cc_prebuilt_binary {
         "CarrierLocation",
         "CarrierMetrics",
         "CarrierWifi",
+        "PrebuiltBugle",
         "WfcActivation",
         "com.google.android.dialer.support",
         "FossifyGallery",

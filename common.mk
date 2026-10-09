@@ -306,9 +306,14 @@ PRODUCT_PACKAGES += \
     vendor_dsp_mountpoint \
     vendor_firmware_mnt_mountpoint
 
+# ION
+$(call soong_config_set_bool,libion,legacy_impl,true)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.lineage-libperfmgr \
+    libperfmgr \
+    libperfmgr.vendor \
     libqti-perfd-client
 
 PRODUCT_COPY_FILES += \
@@ -328,6 +333,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/google/pixel/power-libperfmgr \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/oneplus \
     hardware/qcom-caf/common/libqti-perfd-client \

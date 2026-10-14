@@ -317,4 +317,40 @@
     <!-- OnePlus Dash/Warp Charger support -->
     <bool name="config_hasDashCharger">true</bool>
     <bool name="config_hasWarpCharger">true</bool>
+
+    <!-- Empty ANGLE allowlist to prevent upstream/GMS overlays from enabling ANGLE on sdm845 -->
+    <string-array name="config_angleAllowList">
+    </string-array>
+
+    <!-- The list of packages that will not use ANGLE as the GLES driver, overridden by RRO -->
+    <string-array name="config_angleDenyList">
+        <item>com.mojang.minecraftpe</item>
+        <item>com.dts.freefireth</item>
+        <item>com.dts.freefiremax</item>
+        <item>com.activision.callofduty.shooter</item>
+        <item>com.garena.game.codm</item>
+        <item>com.vng.codmvn</item>
+        <item>com.tencent.ig</item>
+        <item>com.pubg.imobile</item>
+        <item>com.pubg.krmobile</item>
+        <item>com.vng.pubgmobile</item>
+        <item>com.epicgames.fortnite</item>
+        <item>com.epicgames.portal</item>
+        <item>com.riotgames.league.wildrift</item>
+        <item>com.miHoYo.GenshinImpact</item>
+        <item>com.HoYoverse.hkrpgoversea</item>
+        <item>com.miHoYo.hkrpgoversea</item>
+        <item>com.roblox.client</item>
+        <item>com.gameloft.android.ANMP.GloftA9HM</item>
+        <item>com.supercell.brawlstars</item>
+        <item>com.supercell.clashofclans</item>
+        <item>com.supercell.clashroyale</item>
+        <item>com.nianticlabs.pokemongo</item>
+        <item>com.ea.gp.fifamobile</item>
+        <item>com.carxtech.sr</item>
+        <item>com.proximabeta.mf.uamo</item>
+    </string-array>
+
+    <!-- Whether or not to enable ANGLE as default driver for all games, overridden by RRO -->
+    <bool name="config_angleForGamesEnabled">false</bool>
 </resources>

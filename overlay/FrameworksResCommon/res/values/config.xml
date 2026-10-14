@@ -317,4 +317,7 @@
     <!-- OnePlus Dash/Warp Charger support -->
     <bool name="config_hasDashCharger">true</bool>
     <bool name="config_hasWarpCharger">true</bool>
+
+    <!-- Whether or not to enable ANGLE as default driver for all games, overridden by RRO -->
+    <bool name="config_angleForGamesEnabled">false</bool>
 </resources>
